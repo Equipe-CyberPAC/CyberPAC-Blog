@@ -1,5 +1,40 @@
 ---
-const pageTitle = "About Us";
+const pageTitle = "About us";
+const devlog = "DevLogs";
+const home = "Home";
+
+const membersNames = [
+    "Ruan Diego Velloso Cardozo",
+    "Maruan Biasi El Achkar",
+    "Thiago de Freitas Saraiva",
+    "Victor Matheus Moreira",
+    "Jessica Roecker Arns",
+    "João Antônio David",
+    "Murilo Calixto Nascimento"
+];
+
+const teamNames = [ 
+    "CyberPAC 2D ART & UX/UI",
+    "CyberPAC 3D ART",
+    "CyberPAC SOUND",
+    "CyberPAC PROGRAMMING",
+    "CyberPAC WEB",
+    "CyberPAC GAME DESIGN"
+];
+
+
+const skills = [
+  "HTML", 
+  "CSS", 
+  "JavaScript", 
+  "React", 
+  "Astro", 
+  "Documentar", 
+  "C#", 
+  "Unity HUB", 
+  "3D", 
+  "Sounds" 
+];
 ---
 
 <html lang="en">
@@ -9,34 +44,48 @@ const pageTitle = "About Us";
     <title>{pageTitle}</title>
   </head>
 <body>
-    <a href="/">Home</a>
-    <a href="/aboutus/">About Us</a>
-    <a href="/devlogs/">DevLogs</a>
+    <a href="/">{home}</a>
+    <a href="/aboutus/">{pageTitle}</a>
+    <a href="/devlogs/">{devlog}</a>
     <h1>{pageTitle}</h1>
 
-    <p>Qui non magna duis commodo duis proident aute do pariatur. Voluptate laboris fugiat laboris fugiat sit nisi aliqua duis dolor 
-        empor eiusmod aliquip commodo. Laborum in qui occaecat elit nulla dolor qui do aliquip minim. Pariatur in anim dolor exercitation 
-        exercitation officia labore sunt et culpa dolor et. Cillum ipsum velit et sunt fugiat ullamco velit excepteur qui qui fugiat commodo 
-        dolore. Amet pariatur laborum sunt qui cillum ad dolore duis magna. Sit Lorem tempor quis ut et esse minim nulla ullamco.
+    <p>Aqui está um pouco sobre o time: </p>
+    <ul>
+      <li>
+        <h2>{teamNames[0]}</h2>
+        <a> {membersNames[5]} </a>
+      </li>
+      <li>
+        <h2>{teamNames[1]}</h2>
+        <p>{membersNames[1]}</p>
+      </li>
+      <li>
+        <h2>{teamNames[2]}</h2>
+        <p>{membersNames[6]}</p>
+      </li>
+      <li>
+        <h2>{teamNames[3]}</h2>
+        <p>{membersNames[4]}</p>
+      </li>
+      <li>
+        <h2>{teamNames[4]}</h2>
+        <p>{membersNames[0]}</p>
+      </li>
+      <li>
+        <h2>{teamNames[5]}</h2>
+        <p>{membersNames[2]}</p>
+      </li>
+      <li>
+        <h2>{teamNames[0]}</h2>
+        <a> {membersNames[5]} </a>
+      </li>
+    </ul>
 
-        Eu exercitation cillum officia laborum laboris exercitation tempor minim elit magna tempor voluptate non exercitation. 
-        Incididunt cupidatat consectetur et ipsum ipsum. Duis culpa commodo eu esse laborum cillum elit officia consectetur pariatur 
-        reprehenderit sit nisi. Pariatur nostrud mollit veniam fugiat laboris enim irure consectetur non.
-
-        Ut nisi deserunt ex ullamco est est nostrud ex cillum officia nisi pariatur pariatur non. Ad nisi commodo est labore eiusmod ex. 
-        Dolore irure laboris veniam minim id occaecat nulla deserunt occaecat nisi elit. Laborum laboris laborum tempor in deserunt voluptate 
-        culpa ex. Ea voluptate aliqua Lorem duis nisi do nostrud. Nisi elit officia aliqua ea occaecat ex quis. Laboris irure fugiat duis ullamco 
-        elit ut veniam incididunt.
-
-        Ipsum sunt Lorem qui adipisicing consectetur ad culpa nostrud consectetur et ad irure duis. Ut dolore do id labore minim sunt aute occaecat 
-        sunt culpa labore quis fugiat. Mollit aliquip fugiat pariatur amet. Adipisicing irure dolor do velit ullamco ipsum exercitation aliqua incididunt 
-        Lorem. Quis pariatur ea ea ex quis.
-
-        Anim cillum eiusmod Lorem pariatur incididunt magna exercitation laborum aute adipisicing aute et laboris sint. Sit qui consequat commodo ullamco 
-        consequat non. Qui reprehenderit do aliquip fugiat commodo elit aliqua ut ea ad minim proident ex. Aute ut sunt occaecat culpa enim anim aliquip mollit 
-        commodo sit mollit et. Do voluptate adipisicing qui cillum officia. Ad minim voluptate qui non exercitation ipsum.
-
-        Enim pariatur laborum deserunt sit occaecat magna. Duis veniam tempor Lorem anim sint ut nulla non tempor tempor. Reprehenderit labore incididunt sint laborum 
-        in aute et nisi eu occaecat. Anim Lorem dolor veniam anim minim ipsum occaecat.</p>
-  </body>
+      </body>
   </html>
+
+
+
+
+
+

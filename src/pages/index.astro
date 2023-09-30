@@ -1,4 +1,9 @@
 ---
+const pageTitle = 'CyberPAC Blog';
+const home = 'Home';
+const aboutus = 'About Us';
+const devlogs = 'DevLogs';
+
 ---
 
 <html lang="en">
@@ -7,12 +12,12 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>CyberPac Blog</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<a href="/">Home</a>
-		<a href="/aboutus/">About Us</a>
-		<a href="/devlogs/">DevLogs</a>
-		<h1>CyberPAC Blog</h1>
+		<a href="/">{home}</a>
+		<a href="/aboutus/">{aboutus}</a>
+		<a href="/devlogs/">{devlogs}</a>
+		<h1>{pageTitle}</h1>
 	</body>
 </html>
