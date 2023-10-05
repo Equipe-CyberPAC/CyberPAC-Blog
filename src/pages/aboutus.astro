@@ -4,22 +4,22 @@ const devlog = "DevLogs";
 const home = "Home";
 
 const membersNames = [
-    "Ruan Diego Velloso Cardozo",
-    "Maruan Biasi El Achkar",
-    "Thiago de Freitas Saraiva",
-    "Victor Matheus Moreira",
-    "Jessica Roecker Arns",
-    "João Antônio David",
-    "Murilo Calixto Nascimento"
+    "Ruan Diego Velloso Cardozo", //0
+    "Maruan Biasi El Achkar", //1
+    "Thiago de Freitas Saraiva", //2
+    "Victor Matheus Moreira", //3
+    "Jessica Roecker Arns", //4
+    "João Antônio David", //5
+    "Murilo Calixto Nascimento" //6
 ];
 
 const teamNames = [ 
-    "CyberPAC 2D ART & UX/UI",
-    "CyberPAC 3D ART",
-    "CyberPAC SOUND",
-    "CyberPAC PROGRAMMING",
-    "CyberPAC WEB",
-    "CyberPAC GAME DESIGN"
+    "CyberPAC 2D ART & UX/UI", //0
+    "CyberPAC 3D ART", //1
+    "CyberPAC SOUND", //2
+    "CyberPAC PROGRAMMING", //3
+    "CyberPAC WEB", //4
+    "CyberPAC GAME DESIGN" //5
 ];
 
 
@@ -48,39 +48,64 @@ const skills = [
     <a href="/aboutus/">{pageTitle}</a>
     <a href="/devlogs/">{devlog}</a>
     <h1>{pageTitle}</h1>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        align-items: center;
+      }
+      h1 {
+        color: purple;
+        font-size: 4rem;
+      }
 
+      h2 {
+        color: purple;
+      }
+      
+    </style>
+    <div class="aboutus">
     <p>Aqui está um pouco sobre o time: </p>
     <ul>
       <li>
         <h2>{teamNames[0]}</h2>
-        <a> {membersNames[5]} </a>
+        <a> {membersNames[1]} <br> </a>
+        <a> {membersNames[2]} </a>
       </li>
       <li>
         <h2>{teamNames[1]}</h2>
-        <p>{membersNames[1]}</p>
+        <a> {membersNames[1]} <br> </a>
+        <a> {membersNames[2]} </a>
       </li>
       <li>
         <h2>{teamNames[2]}</h2>
-        <p>{membersNames[6]}</p>
+        <a> {membersNames[6]} <br> </a>
+        <a> {membersNames[3]} </a>
       </li>
       <li>
         <h2>{teamNames[3]}</h2>
-        <p>{membersNames[4]}</p>
+        <a> {membersNames[1]} <br> </a>
+        <a> {membersNames[2]} <br> </a>
+        <a> {membersNames[4]} </a>
+
       </li>
       <li>
         <h2>{teamNames[4]}</h2>
-        <p>{membersNames[0]}</p>
+        <a>{membersNames[0]}<br></a>
+        <a>{membersNames[5]}</a>
       </li>
       <li>
         <h2>{teamNames[5]}</h2>
-        <p>{membersNames[2]}</p>
-      </li>
-      <li>
-        <h2>{teamNames[0]}</h2>
-        <a> {membersNames[5]} </a>
+        <a>{membersNames[0]}<br></a>
+        <a>{membersNames[1]}<br></a>
+        <a>{membersNames[2]}<br></a>
+        <a>{membersNames[3]}<br></a>
+        <a>{membersNames[4]}<br></a>
+        <a>{membersNames[5]}<br></a>
+        <a>{membersNames[6]}<br></a>
       </li>
     </ul>
-
+  </div>
       </body>
   </html>
 
