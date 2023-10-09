@@ -1,0 +1,103 @@
+---
+const pageTitle = "About us";
+const Blog = "Blog";
+const home = "Home";
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const membersNames = [
+    "Ruan Diego Velloso Cardozo", //0
+    "Maruan Biasi El Achkar", //1
+    "Thiago de Freitas Saraiva", //2
+    "Victor Matheus Moreira", //3
+    "Jessica Roecker Arns", //4
+    "João Antônio David", //5
+    "Murilo Calixto Nascimento" //6
+];
+
+const teamNames = [ 
+    "CyberPAC 2D ART & UX/UI", //0
+    "CyberPAC 3D ART", //1
+    "CyberPAC SOUND", //2
+    "CyberPAC PROGRAMMING", //3
+    "CyberPAC WEB", //4
+    "CyberPAC GAME DESIGN" //5
+];
+
+
+const skills = [
+  "HTML", 
+  "CSS", 
+  "JavaScript", 
+  "React", 
+  "Astro", 
+  "Documentar", 
+  "C#", 
+  "Unity HUB", 
+  "3D", 
+  "Sounds" 
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+  </head>
+<body>
+    <Header />
+    <h1>{pageTitle}</h1>
+
+    <div class="blog">
+    <p>Aqui está um pouco sobre o time: </p>
+    <ul>
+      <li>
+        <h2>{teamNames[0]}</h2>
+        <a> {membersNames[1]} <br> </a>
+        <a> {membersNames[2]} </a>
+      </li>
+      <li>
+        <h2>{teamNames[1]}</h2>
+        <a> {membersNames[1]} <br> </a>
+        <a> {membersNames[2]} </a>
+      </li>
+      <li>
+        <h2>{teamNames[2]}</h2>
+        <a> {membersNames[6]} <br> </a>
+        <a> {membersNames[3]} </a>
+      </li>
+      <li>
+        <h2>{teamNames[3]}</h2>
+        <a> {membersNames[1]} <br> </a>
+        <a> {membersNames[2]} <br> </a>
+        <a> {membersNames[4]} </a>
+
+      </li>
+      <li>
+        <h2>{teamNames[4]}</h2>
+        <a>{membersNames[0]}<br></a>
+        <a>{membersNames[5]}</a>
+      </li>
+      <li>
+        <h2>{teamNames[5]}</h2>
+        <a>{membersNames[0]}<br></a>
+        <a>{membersNames[1]}<br></a>
+        <a>{membersNames[2]}<br></a>
+        <a>{membersNames[3]}<br></a>
+        <a>{membersNames[4]}<br></a>
+        <a>{membersNames[5]}<br></a>
+        <a>{membersNames[6]}<br></a>
+      </li>
+    </ul>
+  </div>
+  <Footer />
+      </body>
+  </html>
+
+
+
+
+
+
