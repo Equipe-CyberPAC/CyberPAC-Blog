@@ -4,7 +4,9 @@ const home = 'Home';
 const aboutus = 'About Us';
 const devlogs = 'DevLogs';
 import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
 ---
+
 
 <html lang="en">
 	<head>
@@ -16,9 +18,7 @@ import '../styles/global.css';
 	</head>
 
 	<body>
-		<a href="/">{home}</a>
-		<a href="/aboutus/">{aboutus}</a>
-		<a href="/devlogs/">{devlogs}</a>
+		<Navigation />
 		<h1>{pageTitle}</h1>
 	</body>
 </html>
