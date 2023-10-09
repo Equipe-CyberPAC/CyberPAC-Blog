@@ -3,7 +3,7 @@ const pageTitle = 'CyberPAC Blog';
 const home = 'Home';
 const aboutus = 'About Us';
 const devlogs = 'DevLogs';
-
+import '../styles/global.css';
 ---
 
 <html lang="en">
@@ -14,6 +14,7 @@ const devlogs = 'DevLogs';
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
 	</head>
+
 	<body>
 		<a href="/">{home}</a>
 		<a href="/aboutus/">{aboutus}</a>
