@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# CyberPAC-Blog
-DevLogs
-=======
+
 # Astro Starter Kit: Minimal
 
 ```
